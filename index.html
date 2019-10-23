@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f8fd4023f4.js" crossorigin="anonymous"></script>
+    <title>FightStick.com</title>
+</head>
+<body>
+<div id="page-wrapper">
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://i.redd.it/qbfjbeb8oh511.png" alt="fightstick logo"/>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="nav-link" href="#pricing">Price</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Here at FightStick.com we aim to provide the best arcade sticks for those who are serious about becoming the best.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Sign up to get exclusive deals through email!"
+        required/>
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+    </section>
+    <div class="container">
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-3x fa-clipboard-check"></i></div>
+                <div class="desc">
+                    <h2>Quality Materials</h2>
+                    <p>
+                        Made from from the best, for the best. These sticks are built to last.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-3x fa-shipping-fast"></i></div>
+                <div class="desc">
+                    <h2>Fast Shipping</h2>
+                    <p>
+                        We make sure you get your stick on time so you can make it to your pool.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-3x fa-heart" aria-hidden="true"></i>
+                </div>
+                <div class="desc">
+                    <h2>Guaranteed Satisfaction</h2>
+                    <p>
+                        If you aren't completely satified with your purchase, we have a no-questions-asked return/full refund policy.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="how-it-works">
+                <iframe id="video" width="560" height="315" 
+                src="https://www.youtube.com/embed/fzIYidgQeFI" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div id="pic-container">
+                <div id="pic1"><img id="product-img"
+                    src="https://images-na.ssl-images-amazon.com/images/I/71AUvhRMAAL._SL1500_.jpg"
+                    alt="picture of the hori fighting edge"
+                    /></div>
+                <div id="pic2"><img id="product-img"
+                    src="https://support.focusattack.com/hc/article_attachments/360018263371/panthera-evo-sample.jpg"
+                    alt="picture of the razer panthera"
+                    /></div>
+                <div id="pic3"><img id="product-img"
+                    src="https://s.pacn.ws/640/t0/qanba-obsidian-joystick-522235.1.jpg?oq6tf6"
+                    alt="picture of the qanba obsidian"
+                    /></div>
+            </div>
+        <section id="pricing">
+            <div class="product" id="hori">
+                <div class="level">Hori Fighting Edge</div>
+                <h2>$199.99</h2>
+                <ol>
+                    <li>Hayabusa Stick Lever</li>
+                    <li>Hayabusa Buttons</li>
+                    <li>Aluminum Top Panel</li>
+                    <li>Wired Controller</li>
+                </ol>
+                <input type="button" class="btn2" value="Select"
+                onclick="window.open('https://stores.horiusa.com/fighting-edge-for-playstation-4-1/','_blank')"/>
+            </div>
+            <div class="product" id="razer">
+                <div class="level">Razer Panthera</div>
+                <h2>$199.99</h2>
+                <ol>
+                    <li>Sanwa Stick Lever</li>
+                    <li>Sanwa Buttons</li>
+                    <li>Customizable Clear Top</li>
+                    <li>Wired Controller</li>
+                </ol>
+                <input type="button" class="btn2" value="Select" onclick="window.open('https://www.razer.com/gaming-controllers/razer-panthera-evo','_blank')"/>
+            </div>
+            <div class="product" id="qanba">
+                <div class="level">Qanba Obsidian</div>
+                <h2>$199.99</h2>
+                <ol>
+                    <li>Sanwa Stick Lever</li>
+                    <li>Sanwa Buttons</li>
+                    <li>LED Accent Lighting</li>
+                    <li>Wired Controller</li>
+                </ol>
+                <input type="button" class="btn2" value="Select" onclick="window.open('https://qanbausa.com/obsidian/','_blank')"/>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Copyright 2019, FightSticks</span>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
